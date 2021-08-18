@@ -2,7 +2,6 @@ import Head from 'next/head'
 import { GeoJSONLayer } from "react-mapbox-gl";
 import { useState, useEffect } from 'react';
 import ReactMapboxGl, { Layer, Feature, Marker } from 'react-mapbox-gl';
-import 'mapbox-gl/dist/mapbox-gl.css';
 import axios from 'axios';
 
 export default function Home(props) {
