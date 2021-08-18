@@ -65,8 +65,8 @@ export default function Home(props) {
   )
 }
 
-// export const getServerSideProps = async () => {
-//   return {
-//     props: {accessToken: process.env.ACCESS_TOKEN},
-//   }
-// }
+export const getServerSideProps = async () => {
+  return {
+    props: {accessToken: process.env.ACCESS_TOKEN},
+  }
+}
